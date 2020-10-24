@@ -1,9 +1,73 @@
+        .selectt { 
+            color: black; 
+            padding: 30px; 
+            display: none; 
+            margin-top: 30px; 
+            width: 60%; 
+            background: lightgrey 
+        } 
+          
+        label { 
+            margin-right: 20px; 
+        } 
 
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        .jumbotron {
+            text-align: center;
+            margin-bottom: 0;
+            
+            ;
+        }
+
+        .jumbotron-fluid {
+            margin-bottom: 0;
+        }
+
+        h1 {
+            color: black;
+            
+        }
+        .lead {
+            color: black;
+            
+        }
+
+        .input-group-prepend {
+            margin: 20px 0 20px 0;
+        }
+
+        .form-control {
+            margin: 20px 0 20px 0;
+            text-align: center;
+        }
+
+
+
+        .btn {
+            margin: 30px;
+        }
+
+        html {
+            background: #a3c2c2;
+        }
+
+        center {
+            background:#a3c2c2;
+        }
+
+        .body {
+            background: #a3c2c2;
+        }
+    
+        @media print {
+            .noPrint {
+                display: none;               
+            }
+            .button {
+                display: none;
+            }
+            .jumbotron-fluid {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+               
+        }
