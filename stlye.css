@@ -29,6 +29,8 @@ button {
 
 img {
     box-shadow: 5px 12px 10px 1px rgba(128,128,128,0.3);
+    max-width: 300px;
+ 
 }
 
 button {
@@ -40,4 +42,9 @@ button {
 .transportfee {
 margin-bottom: 30px;
 }
+
+.transport {
+    font-size: 52px;
+}
+
 
